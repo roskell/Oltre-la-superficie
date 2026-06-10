@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oltre la Superficie - Dispositivo di Museografia Interspecie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style_centrato.css">
+</head>
+
+<body>
+
+    <nav class="main-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./Immagini/logo sopra.png" alt="Logo Oltre la Superficie">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#luogo" class="nav-link">Il luogo</a></li>
+                <li><a href="#target" class="nav-link">Target</a></li>
+                <li><a href="#sfide" class="nav-link">Sfide</a></li>
+                <li><a href="#sistema-ingresso" class="nav-link">Infrastruttura</a></li>
+                <li><a href="#circuito-vasche" class="nav-link">Le 4 Vasche</a></li>
+                <li><a href="#materiali-riconversione" class="nav-link">Specifiche</a></li>
+                <li><a href="#catalogo-gadget" class="nav-link">Mediazione</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="ocean-gradient-wrapper">
+
+        <header id="home" class="layer-section scroll-section hero-section">
+            <div class="container airy-content home-container">
+                <div class="hero-block home-hero-centered">
+                    <div class="hero-header">
+                        <h1>Oltre la superficie</h1>
+                        <p class="hero-subtitle">
+                            Dispositivo di bio-design e condizionamento etologico ad accesso esclusivo
+                        </p>
+                    </div>
+
+                    <div class="concept-box">
+                        <p class="section-text-base">I corpi idrici non sono fondali inerti, ma ecosistemi vivi che
+                            registrano i traumi del presente.</p>
+                        <p class="section-text-base">
+                            Per tre mesi, la sala ipogea del Museo Archeologico “G. Rambotti” si sottrae allo
+                            sguardo umano e viene restituita alla fauna ittica del Lago di Garda.
+                            Tra le memorie delle palafitte riaffiora un’antica alleanza tra uomo e acqua, ma ora il
+                            museo cambia, tace, arretra e respira attraverso correnti, luci, vasche e ombre.
+                            I pesci non osservano: attraversano, sentono, apprendono.
+                        </p>
+                        <p class="section-text-base">
+                            <em>Oltre la superficie</em> è un gesto di cura verso ciò che abbiamo dimenticato: il
+                            lago come corpo vivo, fragile, ferito.
+                        </p>
+                    </div>
+
+                    <a href="#luogo" class="hero-tag hero-tag-below">
+                        Scopri il progetto
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="luogo" class="layer-section scroll-section">
+            <div class="container airy-content">
+                <div class="grid-2col luogo-layout">
+                    <div class="luogo-text">
+                        <h2>Il luogo</h2>
+                        <p class="location-title">Museo Civico Archeologico "G. Rambotti" - Desenzano del Garda (BS)
+                        </p>
+                        <p class="section-text-large">
+                            Situato all'interno di un chiostro del XVII secolo, il Museo Civico
+                            "Giovanni Rambotti" custodisce una delle più importanti collezioni europee di reperti
+                            palafitticoli dell'Età del Bronzo.
+                        </p>
+                        <p class="section-text-large" style="margin-top: 20px;">
+                            La vicinanza al lago, l’oscurità e il silenzio della sala inferiore rendono questo spazio ideale
+                            per accogliere temporaneamente <strong>Oltre la superficie</strong>, in dialogo con la fauna
+                            ittica del Garda.
+                        </p>
+                    </div>
+                    <div class="media-container luogo-image">
+                        <img src="./Immagini/Mappa Museo.png" alt="Mappa">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="target" class="layer-section scroll-section">
+            <div class="container airy-content">
+                <div class="center-header">
+                    <h2>Target</h2>
+                    <p class="section-desc">La fauna ittica divisa in tre gruppi biocentrici in base alla colonna
+                        d'acqua e alla profondità d'azione lacustre.</p>
+                </div>
+
+                <div class="target-vertical-cards-grid">
+
+                    <div class="target-vertical-card" onclick="toggleVerticalCard(this)">
+                        <div class="card-visible-part">
+                            <span class="depth-indicator"> EPILIMNIO | Da 0 a -10 metri</span>
+                            <h3>Pesci Pelagici</h3>
+                            <p class="card-preview-p">Specie associate allo <strong>strato epilimnico</strong>,
+                                caratterizzato da maggiore illuminazione, temperature più elevate e alta disponibilità
+                                di ossigeno.</p>
+                            <span class="expand-trigger-text">Leggi Dettagli Percettivi ↓</span>
+                        </div>
+                        <div class="card-sliding-details">
+                            <div class="sliding-inner-content">
+                                <p><strong>Cinematica</strong><br>Il movimento è <strong>continuo</strong> e
+                                    prevalentemente <strong>orizzontale</strong>, finalizzato alla ricerca di plancton e
+                                    alla fuga rapida. La coordinazione nel <strong>banco</strong> consente spostamenti
+                                    efficienti e riduce il rischio predatorio.</p>
+                                <p><strong>Apparato percettivo</strong><br>L’apparato sensoriale è adattato a un
+                                    ambiente con <strong>luce intensa</strong>, riflessi variabili e alta visibilità. La
+                                    percezione di <strong>vibrazioni</strong>
+                                    e segnali visivi favorisce l’orientamento e la coesione del gruppo.</p>
+                                <p><strong>Psicologia nello spazio</strong><br>In uno spazio aperto e privo di
+                                    riferimenti,
+                                    il comportamento dipende dalla <strong>prossimità sociale</strong> e dalla coesione
+                                    del <strong>banco</strong>.
+                                    L’isolamento può generare stress, mentre il gruppo offre orientamento e protezione.
+                                </p>
+                                <div class="card-internal-media shadow-effect">
+                                    <img src="./Immagini/pesci superficie.png" alt="Target Epilimnio">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="target-vertical-card" onclick="toggleVerticalCard(this)">
+                        <div class="card-visible-part">
+                            <span class="depth-indicator">Metalimnio | Da -10 a -30 metri</span>
+                            <h3>Pesci del termoclino</h3>
+                            <p class="card-preview-p">Specie che occupano la <strong>fascia metalimnica</strong>, dove
+                                si registra un marcato gradiente termico tra acque superficiali e profonde.</p>
+                            <span class="expand-trigger-text">Leggi Dettagli Percettivi ↓</span>
+                        </div>
+                        <div class="card-sliding-details">
+                            <div class="sliding-inner-content">
+                                <p><strong>Cinematica</strong><br>GI pesci della fascia intermedia adottano un nuoto
+                                    <strong>regolare</strong>,
+                                    <strong>continuo</strong> ed energeticamente efficiente. Le traiettorie ampie
+                                    e coordinate consentono di seguire le correnti, ridurre lo sforzo muscolare
+                                    e mantenere una distribuzione spaziale stabile nel gruppo.
+                                </p>
+                                <p><strong>Apparato percettivo</strong><br>L’apparato sensoriale è specializzato per
+                                    ambienti
+                                    a <strong>luce filtrata</strong> e basso contrasto. La visione privilegia
+                                    le lunghezze d’onda verde e blu-verde, mentre la sensibilità termica permette di
+                                    orientarsi lungo i gradienti di temperatura.</p>
+                                <p><strong>Psicologia nello spazio</strong><br>La percezione dello spazio è organizzata
+                                    attorno a <strong>gradienti</strong>,
+                                    contrasti e riferimenti verticali tra acque più calde e più fredde.
+                                    Stimoli artificiali intensi o intermittenti possono alterare l’orientamento,
+                                    compromettendo coordinazione e stabilità comportamentale.</p>
+                                <div class="card-internal-media shadow-effect">
+                                    <img src="./Immagini/pesci nel mezzo.png" alt="Target Metalimnio">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="target-vertical-card" onclick="toggleVerticalCard(this)">
+                        <div class="card-visible-part">
+                            <span class="depth-indicator">Ipolimnio | DA -30 fino agli abissi</span>
+                            <h3>Pesci Bentonici </h3>
+                            <p class="card-preview-p">Specie tipiche dell’<strong>ipolimnio</strong>, lo strato più
+                                profondo del lago, dove prevalgono bassa illuminazione, temperature più stabili e una
+                                stretta relazione con il fondale. </p>
+                            <span class="expand-trigger-text">Leggi Dettagli Percettivi ↓</span>
+                        </div>
+                        <div class="card-sliding-details">
+                            <div class="sliding-inner-content">
+                                <p><strong>Cinematica</strong><br>Nell’ipolimnio, la limitata disponibilità trofica
+                                    favorisce strategie motorie improntate al <strong>risparmio energetico</strong>. Il
+                                    movimento risulta lento, controllato e prevalentemente associato al fondale, che
+                                    costituisce un riferimento spaziale stabile in condizioni di scarsa visibilità.</p>
+                                <p><strong>Apparato percettivo</strong><br>La ridotta penetrazione della luce determina
+                                    una minore centralità della percezione visiva. L’orientamento dipende soprattutto
+                                    dalla <strong>linea laterale</strong>, dalla sensibilità pressoria e dalla capacità
+                                    di rilevare <strong>micro-vibrazioni</strong> e variazioni ambientali.</p>
+                                <p><strong>Psicologia nello spazio</strong><br>Lo spazio profondo viene interpretato
+                                    attraverso segnali <strong>meccanici</strong>, tattili e pressori più che visivi.
+                                    Stimoli artificiali intensi, come rumori a bassa frequenza o vibrazioni anomale,
+                                    possono compromettere l’orientamento e indurre condizioni di <strong>stress
+                                        comportamentale</strong>.</p>
+                                <div class="card-internal-media shadow-effect">
+                                    <img src="./Immagini/pesci fondale.png" alt="Target Ipolimnio">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="sfide" class="layer-section scroll-section">
+            <div class="container airy-content">
+                <div class="center-header">
+                    <h2>Le Sfide Percettive</h2>
+                </div>
+
+                <div class="infographic-grid-split three-card-grid">
+                    <div class="info-card-item border-red">
+
+                        <h3>Disorientamento spaziale</h3>
+                        <p>Il passaggio dall’<strong>ambiente lacustre</strong> a <strong>vasche artificiali</strong>
+                            introduce <strong>geometrie</strong>, <strong>superfici trasparenti</strong> e limiti
+                            spaziali non interpretabili dal pesce, favorendo <strong>collisioni</strong>, perdita di
+                            orientamento e <strong>stress da confinamento</strong>.</p>
+                    </div>
+                    <div class="info-card-item border-red">
+
+                        <h3>Shock fisico e ambientale</h3>
+                        <p>La variazione di <strong>pressione</strong>, <strong>vibrazioni</strong> e
+                            <strong>rumore</strong> altera l’equilibrio idrostatico e sensoriale dell’animale. Le onde
+                            meccaniche prodotte da impianti, passi e traffico possono interferire con la linea laterale.
+                        </p>
+                    </div>
+                    <div class="info-card-item border-red">
+
+                        <h3>Disssonanza percettiva</h3>
+                        <p><strong>Luci</strong>, <strong>riflessi</strong>, immagini e segnali progettati per la
+                            percezione umana possono risultare ecologicamente incoerenti per il pesce, generando
+                            <strong>abbagliamento</strong>, confusione percettiva e <strong>disorientamento
+                                comportamentale</strong>.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sistema-ingresso" class="layer-section scroll-section">
+            <div class="container airy-content">
+                <div class="center-header">
+                    <h2>Infrastruttura di collegamento</h2>
+                    <p class="section-desc">Come l'architettura tecnica bypassa la superficie urbana per connettere
+                        biologicamente l'ecosistema del lago alla sala ipogea.</p>
+                </div>
+
+                <div class="grid-2col" style="margin-bottom: 60px; align-items: start;">
+                    <div>
+
+                        <h3>Sistema di ingresso</h3>
+
+                        <p>
+                            Il trasferimento della biomassa dalla presa lacustre alla sala ipogea avviene
+                            in circa <strong>4 ore</strong>, tramite un flusso idrodinamico continuo a bassa
+                            velocità, calibrato per evitare urti, stress meccanici e variazioni termiche
+                            repentine.
+                        </p>
+                        <br>
+                        <p class="section-text-base" style="margin-bottom: 20px;">
+                            Il prelievo della biomassa avviene attraverso <strong>3 tubi</strong> di
+                            aspirazione idrodinamici, collocati a profondità diverse per intercettare
+                            specie differenti senza shock termici.
+                        </p>
+                        <div class="table-wrapper">
+                            <table class="project-table">
+                                <thead>
+                                    <tr>
+                                        <th>Tubo</th>
+                                        <th>Profondità</th>
+                                        <th>Diametro</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Epilimnio</strong></td>
+                                        <td>-5 metri</td>
+                                        <td>50 cm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Metalimnio</strong></td>
+                                        <td>-25 metri</td>
+                                        <td>50 cm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ipolimnio</strong></td>
+                                        <td>-60 metri</td>
+                                        <td>50 cm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="section-text-base" style="margin-top: 15px;">
+                            L’ingresso è controllato da <strong>sensori biomorfici</strong> capaci di riconoscere la
+                            sagoma dei pesci. In
+                            caso di ingresso di un predatore, come il Luccio, il sistema devia automaticamente l’animale
+                            verso un’uscita.
+
+                        </p>
+                    </div>
+                    <div class="media-container shadow-effect" style="height: 100%;">
+                        <img src="./Immagini/Tubi 2.png" alt="Target Metalimnio">
+                    </div>
+                </div>
+
+                <section id="sfide" class="layer-section scroll-section">
+                    <div class="container airy-content">
+                        <div class="center-header">
+                            <h2>Come vengono attirati i pesci?</h2>
+                        </div>
+
+                        <div class="infographic-grid-split three-card-grid">
+                            <div class="info-card-item border-red">
+
+                                <h3>Reotassi positiva</h3>
+                                <p>Una corrente artificiale di <strong>0,2 m/s</strong> spinge i pesci a nuotare
+                                    controcorrente, trasformando il transito in una risalita migratoria.</p>
+                            </div>
+                            <div class="info-card-item border-red">
+
+                                <h3>Disssonanza percettiva</h3>
+                                <p>L’imboccatura dei tubi utilizza luci calibrate: <strong>blu-verde 480 nm</strong> per
+                                    i Pelagici e quelli del termoclino, <strong>debole luminescenza UV</strong> per il
+                                    Carpione.</p>
+                            </div>
+                            <div class="info-card-item border-red">
+
+                                <h3>Rinforzo olfattivo</h3>
+                                <p>Nei condotti viene immessa <strong>acqua del Garda</strong> arricchita con
+                                    <strong>amminoacidi</strong> naturali estratti da chironomidi e micro-crostacei,
+                                    creando una scia percettiva che guida i pesci verso il museo.
+                                </p>
+                            </div>
+                        </div>
+                </section>
+
+                <div class="ciclo-temporale-section">
+
+                    <div class="center-header">
+                        <h2>Ciclo Temporale</h2>
+                    </div>
+
+                    <div class="ciclo-box-grid">
+
+                        <div class="ciclo-box">
+                            <h3>36 Ore di Ciclo Esclusivo</h3>
+                            <p>
+                                Ogni fascia ecologica occupa l'intero spazio museale per un turno esclusivo,
+                                calibrato sulla pressione idrostatica e termica di provenienza.
+                            </p>
+                        </div>
+
+                        <div class="ciclo-box">
+                            <h3>2 Ore di Reset Tecnico</h3>
+                            <p>
+                                Al termine di ogni ciclo, le vasche variano parametri e filtri
+                                per prepararsi alla specie successiva.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section id="circuito-vasche" class="layer-section scroll-section">
+    <div class="container airy-content">
+
+        <div class="center-header">
+            <h2>Circuito delle Quattro Vasche</h2>
+            <p class="section-desc">
+                I rischi antropici tradotti in segnali percettivi comprensibili dai pesci.
+            </p>
+        </div>
+
+      <div class="centered-vasche-grid">
+
+    <!-- VASCA 1 -->
+    <div class="info-card-item dark-glass">
+        <span class="depth-indicator">Vasca 1</span>
+        <h3>Inquinamento acustico</h3>
+        <p>
+            La vasca educa il pesce a riconoscere vibrazioni, rumore e geometrie frammentate come segnali
+            di instabilità, orientandolo verso aree più silenziose, uniformi e sicure.
+        </p>
+
+        <div class="media-container mini-box shadow-effect">
+            <img class="zoomable-image" src="./Immagini/vasca 1.png" alt="Vasca 1 - Inquinamento acustico">
+        </div>
+    </div>
+
+    <!-- VASCA 2 -->
+    <div class="info-card-item dark-glass">
+        <span class="depth-indicator">Vasca 2</span>
+        <h3>Inquinamento luminoso</h3>
+        <p>
+            La vasca associa la luce calda intermittente a una condizione di disturbo, mentre il blu
+            attinico stabile diventa un riferimento percettivo di protezione.
+        </p>
+
+        <div class="media-container mini-box shadow-effect">
+            <img class="zoomable-image" src="./Immagini/vasca 2.png" alt="Vasca 2 - Inquinamento luminoso">
+        </div>
+    </div>
+
+    <!-- VASCA 3 -->
+    <div class="info-card-item dark-glass">
+        <span class="depth-indicator">Vasca 3</span>
+        <h3>Perdita di habitat</h3>
+        <p>
+            La vasca stimola la ricerca di habitat complessi, ricchi di canneti, radici, ombre e
+            micro-rifugi, contrapponendoli a spazi nudi, instabili e privi di riferimenti.
+        </p>
+
+        <div class="media-container mini-box shadow-effect">
+            <img class="zoomable-image" src="./Immagini/vasca 3.png" alt="Vasca 3 - Perdita di habitat">
+        </div>
+    </div>
+
+    <!-- VASCA 4 -->
+    <div class="info-card-item dark-glass">
+        <span class="depth-indicator">Vasca 4</span>
+        <h3>Specie invasive</h3>
+        <p>
+            La vasca addestra il pesce a interpretare una sagoma geometrica di minaccia come segnale
+            predatorio, favorendo una risposta di fuga rapida verso il rifugio.
+        </p>
+
+        <div class="media-container mini-box shadow-effect">
+            <img class="zoomable-image" src="./Immagini/vasca 4.png" alt="Vasca 4 - Specie invasive">
+        </div>
+    </div>
+
+</div>
+        <section id="materiali-riconversione" class="layer-section scroll-section">
+            <div class="container airy-content">
+                <div class="grid-2col" style="align-items: start;">
+
+                    <div class="grid-cell">
+                        <h3>Materiali e Ambiente Controllato</h3>
+                        <p class="section-desc" style="text-align: left; margin-bottom: 20px;">Ogni componente
+                            strutturale risponde a precisi standard di biocompatibilità ittica ed ecologica.</p>
+                        <div class="table-wrapper">
+                            <table class="project-table" style="font-size: 0.85rem;">
+                                <thead>
+                                    <tr>
+                                        <th>Componente</th>
+                                        <th>Materiale Impiegato</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Pareti interne tubi</strong></td>
+                                        <td>HDPE nero opaco goffrato</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Fondo delle vasche</strong></td>
+                                        <td>Resina epossidica miscelata con sedimenti del Garda</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Pareti esterne</strong></td>
+                                        <td>Acrilico strutturale con pellicole dicroiche antiriflesso</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Schermature</strong></td>
+                                        <td>Bio-fibra di canapa stampata in 3D macro-porosa</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="grid-cell">
+                        <h3>Riconversione Museografica</h3>
+                        <p class="section-text-base" style="margin-bottom: 20px;">L'edificio storico e la sala ipogea
+                            sotterranea vengono radicalmente modificati a livello infrastrutturale per ospitare la
+                            biomassa lacustre senza interferenze esterne.</p>
+                        <ul class="strategy-vector-list" style="font-size: 0.95rem;">
+                            <li><strong>Isolamento Acustico Integrale:</strong> Installazione di pannelli fonoassorbenti
+                                ad alta densità e supporti elastici.Il rumore
+                                ambientale viene mantenuto rigidamente sotto i 30 dB.</li>
+                            <li><strong>Controllo luminoso:</strong> La sala ipogea viene immersa in una
+                                condizione di oscurità quasi totale. L'unica luce proviene dai sistemi LED subacquei
+                                calibrati nelle singole vasche.</li>
+                            <li><strong>Pedane tecniche:</strong> Integrazione di pedane
+                                strutturali per accogliere i sistemi nascosti di ricircolo, filtraggio
+                                meccanico, ossigenazione e controllo termico.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="single-column-layout"
+                    style="margin-top: 80px; padding-top: 60px; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <div class="center-header" style="margin-bottom: 40px;">
+                        <h3>Tracciamento Biometrico</h3>
+                        <p class="section-desc">L’installazione integra un sistema di monitoraggio etologico basato su
+                            Computer Vision, posizionato sul soffitto della sala ipogea.</p>
+                    </div>
+                    <div class="grid-2col" style="gap: 40px;">
+                        <div class="info-card-item border-green" style="border-top-color: #93c5fd;">
+                            <h4>Mappatura delle traiettorie</h4>
+                            <p>I movimenti della fauna ittica nello spazio vengono catturati ed elaborati
+                                in heatmaps, utili a individuare le aree di maggiore permanenza e verificare l’efficacia
+                                delle zone sicure.</p>
+                        </div>
+                        <div class="info-card-item border-green" style="border-top-color: #93c5fd;">
+                            <h4>Tempo di Reazione Formale</h4>
+                            <p>Il sistema calcola e registra la rapidità con cui il banco o i singoli esemplari
+                                modificano la propria traiettoria di nuoto in risposta alla comparsa del pericolo.</p>
+                        </div>
+                    </div>
+                    <div class="media-container biometric-image shadow-effect">
+
+                        <img src="./Immagini/tracciamento.png" alt="Target Metalimnio">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="catalogo-gadget" class="layer-section scroll-section mediazione-section">
+            <div class="container airy-content">
+
+                <div class="center-header">
+                    <h2>Mediazione e merchandising per Umani</h2>
+                    <p class="section-desc">
+                        Il pubblico umano è fisicamente confinato al piano terra, pertanto l'allestimento si traduce
+                        all'esterno tramite elaborati grafici e strumenti di alterazione sensoriale.
+                    </p>
+                </div>
+
+                <div class="mediazione-cards-grid">
+
+                    <!-- CATALOGO -->
+                    <div class="mediazione-card" onclick="toggleMediazioneCard(this)">
+                        <div class="mediazione-visible-part">
+                            <div class="mediazione-card-image">
+                                <img src="./Immagini/Catalogo.jpg" alt="Catalogo della mostra">
+                            </div>
+
+                            <h3>Catalogo</h3>
+
+                            <span class="mediazione-trigger-text">Leggi dettagli ↓</span>
+                        </div>
+
+                        <div class="mediazione-sliding-details">
+                            <div class="mediazione-inner-content">
+                                <p>
+                                    Il <strong>catalogo</strong> diventa in questo contesto il principale dispositivo di
+                                    mediazione,
+                                    permette al pubblico escluso di ricostruire, immaginare e comprendere ciò che accade
+                                    nello spazio riservato alla fauna ittica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LENTI DEL GARDA -->
+                    <div class="mediazione-card" onclick="toggleMediazioneCard(this)">
+                        <div class="mediazione-visible-part">
+                            <div class="mediazione-card-image">
+                                <img src="./Immagini/occhiali.png" alt="Lenti del Garda">
+                            </div>
+
+                            <h3>Lenti del Garda</h3>
+
+                            <span class="mediazione-trigger-text">Leggi dettagli ↓</span>
+                        </div>
+
+                        <div class="mediazione-sliding-details">
+                            <div class="mediazione-inner-content">
+                                <p>
+                                    Le <strong>Lenti del Garda</strong> sono degli occhiali montati su una struttura
+                                    in cartone nero rigido, dotati di lenti cromatiche filtrate che modificano lo
+                                    spettro visivo umano, privilegiando le tonalità fredde blu-verdi e avvicinando
+                                    l’esperienza percettiva a quella delle specie ittiche del Garda.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PIEGASCOLTA -->
+                    <div class="mediazione-card" onclick="toggleMediazioneCard(this)">
+                        <div class="mediazione-visible-part">
+                            <div class="mediazione-card-image">
+                                <img src="./Immagini/cartolina.png" alt="Piegascolta">
+                            </div>
+
+                            <h3>Piegascolta</h3>
+
+                            <span class="mediazione-trigger-text">Leggi dettagli ↓</span>
+                        </div>
+
+                        <div class="mediazione-sliding-details">
+                            <div class="mediazione-inner-content">
+                                <p>
+                                    Il <strong>Piegascolta</strong> è una cartolina sonora che, aprendosi,
+                                    attiva vibrazioni basse e disturbanti ispirate a eliche, motoscafi e traffico
+                                    nautico.
+                                    Traduce il rumore umano in esperienza fisica, restituendo ciò che per i pesci
+                                    diventa
+                                    allarme, corrente e oscillazione invisibile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="corporate-footer">
+            <div class="container">
+                <div class="footer-top-grid">
+
+                    <div class="footer-brand">
+                        <h4>Oltre la superficie</h4>
+                        <p>I corpi idrici sono ecosistemi vivi, capaci di custodire memorie e ferite del presente.
+                        <p>Per tre mesi, la sala ipogea del Museo Civico Archeologico “G. Rambotti” viene restituita
+                            alla fauna ittica del Lago di Garda. Tra le tracce delle palafitte riaffiora un’antica
+                            alleanza tra uomo e acqua.
+                        </p>
+                        <p><strong>Oltre la superficie</strong> è un gesto di cura verso il lago: corpo vivo, fragile,
+                            ferito.</p>
+
+                        </p>
+
+                    </div>
+
+                    <div class="footer-links-column">
+                        <h4>Membri del gruppo</h4>
+                        <ul class="footer-members-list">
+                            <li>Cammise Rossella</li>
+                            <li>Capilli Ginevra</li>
+                            <li>Marsico Mattia</li>
+                            <li>Silva Brito Vanessa</li>
+                            <li>Sorsoli Enrico</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="footer-links-column">
+                        <h4>Indirizzo</h4>
+                        <p class="footer-info-text" style="margin-bottom">
+                            Museo Civico Archeologico "G. Rambotti"<br>
+                            Via Crocefisso, Desenzano del Garda (BS)<br>
+                            Sala Piano Terra
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="footer-bottom-bar">
+                    <p>&copy; 2026 Oltre la Superficie - Teoria della Percezione e Psicologia della Forma Prof. Pedro
+                        Alberto Medina Reinon</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+<div id="image-modal" class="image-modal">
+    <button class="image-modal-close" aria-label="Chiudi immagine">×</button>
+    <img id="image-modal-img" src="" alt="">
+</div>
+    <script>
+        // 1. Funzione per l'apertura fluida delle carte del Target
+        function toggleVerticalCard(cardElement) {
+            const isCurrentlyActive = cardElement.classList.contains('active');
+            const allCards = document.querySelectorAll('.target-vertical-card');
+
+            allCards.forEach(card => {
+                card.classList.remove('active');
+            });
+
+            if (!isCurrentlyActive) {
+                cardElement.classList.add('active');
+            }
+        }
+
+        // 2. Funzione Scroll Spy per evidenziare la voce del menu corretta durante lo scorrimento
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.scroll-section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', () => {
+                let currentSectionId = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    // Calcolo con offset di tolleranza di 200px per intercettare prima il cambio sezione
+                    if (window.scrollY >= (sectionTop - 200)) {
+                        currentSectionId = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentSectionId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+        function toggleMediazioneCard(cardElement) {
+            const isCurrentlyActive = cardElement.classList.contains('active');
+            const allCards = document.querySelectorAll('.mediazione-card');
+
+            allCards.forEach(card => {
+                card.classList.remove('active');
+            });
+
+            if (!isCurrentlyActive) {
+                cardElement.classList.add('active');
+            }
+        }   
+         const zoomableImages = document.querySelectorAll('.zoomable-image');
+    const imageModal = document.getElementById('image-modal');
+    const imageModalImg = document.getElementById('image-modal-img');
+    const imageModalClose = document.querySelector('.image-modal-close');
+
+    zoomableImages.forEach(img => {
+        img.addEventListener('click', function (event) {
+            event.stopPropagation();
+
+            imageModalImg.src = this.src;
+            imageModalImg.alt = this.alt;
+            imageModal.classList.add('active');
+        });
+    });
+
+    imageModalClose.addEventListener('click', function () {
+        imageModal.classList.remove('active');
+        imageModalImg.src = '';
+    });
+
+    imageModal.addEventListener('click', function (event) {
+        if (event.target === imageModal) {
+            imageModal.classList.remove('active');
+            imageModalImg.src = '';
+        }
+    });
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            imageModal.classList.remove('active');
+            imageModalImg.src = '';
+        }
+    });
+    </script>
+</body>
+
+</html>
